@@ -14,5 +14,8 @@ cc_library_shared {
         "libcutils",
         "libutils",
     ],
+    static_libs: [
+        "libc++fs",
+    ],
     export_include_dirs: ["."],
 }
